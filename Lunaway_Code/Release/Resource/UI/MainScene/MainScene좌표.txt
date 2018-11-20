@@ -1,0 +1,4 @@
+[Title] 120, 710
+[GameStart] 120 440
+[HowtoPlay] 120 270
+[Exit] 120 110

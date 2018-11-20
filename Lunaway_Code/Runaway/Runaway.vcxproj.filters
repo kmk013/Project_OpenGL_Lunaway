@@ -1,0 +1,353 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{1e2102ae-2ff6-4bb1-9b57-9bd7a865fbaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Manager">
+      <UniqueIdentifier>{0ae38d54-d2d8-46fc-96bc-068eeb5f65fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\OpenGL">
+      <UniqueIdentifier>{4b88f67b-ed90-444a-847d-f59f9914fab7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\GLClass">
+      <UniqueIdentifier>{9be2cfc0-f09d-410b-9693-41e887b21a3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Shader">
+      <UniqueIdentifier>{d622ae67-fd53-45ed-b806-1a62dcd497cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Math">
+      <UniqueIdentifier>{e1e60e8e-0a6e-460f-803d-785141a278ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Object">
+      <UniqueIdentifier>{952836a5-49e8-445c-be85-11b6241ac952}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TestObjectScene">
+      <UniqueIdentifier>{14d41109-802e-4182-8c05-f0fcfc9400c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainScene">
+      <UniqueIdentifier>{cdbcad2a-f1ec-4c63-bd0b-feb77d830a03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameScene">
+      <UniqueIdentifier>{5cab2489-62d0-416a-9059-2ce75b24bb1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameScene\Player">
+      <UniqueIdentifier>{5ced3fbb-5366-4e7f-8bbb-adbcbf176869}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameScene\Stars">
+      <UniqueIdentifier>{80dea33b-9137-43d8-b4f6-e71bdc02fe07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameScene\Player\Bullet">
+      <UniqueIdentifier>{0bad53e2-defa-421a-aa46-337a7adf7ae1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameScene\CrushObject">
+      <UniqueIdentifier>{bba41128-fc68-4e20-b3f0-ceadf6828004}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameScene\CrushObject\Planet">
+      <UniqueIdentifier>{5db0f97b-aba7-4ef6-875b-e920fd1b450c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameScene\GameManager">
+      <UniqueIdentifier>{e4c590d4-2d53-4dd8-87b2-8a2fb141d029}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameScene\CrushObject\ShootingStar">
+      <UniqueIdentifier>{8909ad7f-d39d-425a-b60f-aa735b15efd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameScene\CrushObject\Stone">
+      <UniqueIdentifier>{589eb3e0-6dd5-4885-8a65-462fd456f427}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameScene\ItemManager">
+      <UniqueIdentifier>{4ce9cd1f-ecea-4970-8049-dfe2a563451f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameScene\Player\SplitPlayer">
+      <UniqueIdentifier>{8498e4aa-23f0-4034-b7da-e89329f434fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameScene\ItemManager\Item">
+      <UniqueIdentifier>{57d6efc8-9874-4a6e-b592-a32c6e648a49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameScene\ItemManager\Item\Gem">
+      <UniqueIdentifier>{6e6814b4-0958-4f80-a1a0-59c978417da8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameScene\BoardManager">
+      <UniqueIdentifier>{7c470f1b-43be-4e67-b953-712e88b67f6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameScene\BoardManager\Board">
+      <UniqueIdentifier>{433a0760-432c-4a49-a1ea-66a2e7ece32b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameScene\UI">
+      <UniqueIdentifier>{ec8ee319-d8d5-4fc0-946b-0a1069c59622}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameScene\UI\Distance">
+      <UniqueIdentifier>{caac12be-1207-41c2-b6df-6e5a6ba79788}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameScene\UI\Speed">
+      <UniqueIdentifier>{f8364563-ffd8-47bf-8d20-1ea6e4f54227}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameScene\UI\BestScore">
+      <UniqueIdentifier>{fa0aa07c-9b3d-4191-85d0-940f5d6ac9d3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Runaway.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowManager.h">
+      <Filter>Framework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageManager.h">
+      <Filter>Framework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectManager.h">
+      <Filter>Framework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicManager.h">
+      <Filter>Framework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="RUNAMath.h">
+      <Filter>Framework\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Framework\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Framework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="ogl.h">
+      <Filter>Framework\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Framework\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="GLShader.h">
+      <Filter>Framework\GLClass</Filter>
+    </ClInclude>
+    <ClInclude Include="GLProgram.h">
+      <Filter>Framework\GLClass</Filter>
+    </ClInclude>
+    <ClInclude Include="TestScene.h">
+      <Filter>TestObjectScene</Filter>
+    </ClInclude>
+    <ClInclude Include="TestObject.h">
+      <Filter>TestObjectScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Framework\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="TestScene2.h">
+      <Filter>TestObjectScene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Framework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="PNGLoader.h">
+      <Filter>Framework\GLClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Framework\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>Framework\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="MainScene.h">
+      <Filter>MainScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>MainScene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="EmptyObject.h">
+      <Filter>GameScene\BoardManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>GameScene\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="BoardManager.h">
+      <Filter>GameScene\BoardManager</Filter>
+    </ClInclude>
+    <ClInclude Include="StarManager.h">
+      <Filter>GameScene\Stars</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider.h">
+      <Filter>Framework\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Planet.h">
+      <Filter>GameScene\CrushObject\Planet</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>GameScene\Player\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>GameScene\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>GameScene\ItemManager\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Stone.h">
+      <Filter>GameScene\CrushObject\Stone</Filter>
+    </ClInclude>
+    <ClInclude Include="ShootingStar.h">
+      <Filter>GameScene\CrushObject\ShootingStar</Filter>
+    </ClInclude>
+    <ClInclude Include="Gem.h">
+      <Filter>GameScene\ItemManager\Item\Gem</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemManager.h">
+      <Filter>GameScene\ItemManager</Filter>
+    </ClInclude>
+    <ClInclude Include="SplitPlayer.h">
+      <Filter>GameScene\Player\SplitPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="Board.h">
+      <Filter>GameScene\BoardManager\Board</Filter>
+    </ClInclude>
+    <ClInclude Include="DistanceText.h">
+      <Filter>GameScene\UI\Distance</Filter>
+    </ClInclude>
+    <ClInclude Include="SpeedText.h">
+      <Filter>GameScene\UI\Speed</Filter>
+    </ClInclude>
+    <ClInclude Include="BestScoreText.h">
+      <Filter>GameScene\UI\BestScore</Filter>
+    </ClInclude>
+    <ClInclude Include="CollectionGem.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MessageManager.cpp">
+      <Filter>Framework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectManager.cpp">
+      <Filter>Framework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowManager.cpp">
+      <Filter>Framework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicManager.cpp">
+      <Filter>Framework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Framework\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Framework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="ogl.cpp">
+      <Filter>Framework\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Framework\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="GLShader.cpp">
+      <Filter>Framework\GLClass</Filter>
+    </ClCompile>
+    <ClCompile Include="GLProgram.cpp">
+      <Filter>Framework\GLClass</Filter>
+    </ClCompile>
+    <ClCompile Include="RUNAMath.cpp">
+      <Filter>Framework\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="TestObject.cpp">
+      <Filter>TestObjectScene</Filter>
+    </ClCompile>
+    <ClCompile Include="TestScene.cpp">
+      <Filter>TestObjectScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Framework\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="TestScene2.cpp">
+      <Filter>TestObjectScene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Framework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="PNGLoader.cpp">
+      <Filter>Framework\GLClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Framework\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>Framework\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="MainScene.cpp">
+      <Filter>MainScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>MainScene</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="EmptyObject.cpp">
+      <Filter>GameScene\BoardManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>GameScene\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="BoardManager.cpp">
+      <Filter>GameScene\BoardManager</Filter>
+    </ClCompile>
+    <ClCompile Include="StarManager.cpp">
+      <Filter>GameScene\Stars</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider.cpp">
+      <Filter>Framework\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Planet.cpp">
+      <Filter>GameScene\CrushObject\Planet</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>GameScene\Player\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>GameScene\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>GameScene\ItemManager\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Stone.cpp">
+      <Filter>GameScene\CrushObject\Stone</Filter>
+    </ClCompile>
+    <ClCompile Include="ShootingStar.cpp">
+      <Filter>GameScene\CrushObject\ShootingStar</Filter>
+    </ClCompile>
+    <ClCompile Include="Gem.cpp">
+      <Filter>GameScene\ItemManager\Item\Gem</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemManager.cpp">
+      <Filter>GameScene\ItemManager</Filter>
+    </ClCompile>
+    <ClCompile Include="SplitPlayer.cpp">
+      <Filter>GameScene\Player\SplitPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="Board.cpp">
+      <Filter>GameScene\BoardManager\Board</Filter>
+    </ClCompile>
+    <ClCompile Include="DistanceText.cpp">
+      <Filter>GameScene\UI\Distance</Filter>
+    </ClCompile>
+    <ClCompile Include="SpeedText.cpp">
+      <Filter>GameScene\UI\Speed</Filter>
+    </ClCompile>
+    <ClCompile Include="BestScoreText.cpp">
+      <Filter>GameScene\UI\BestScore</Filter>
+    </ClCompile>
+    <ClCompile Include="CollectionGem.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="VertDraw.vert">
+      <Filter>Framework\Shader</Filter>
+    </None>
+    <None Include="VertDraw.frag">
+      <Filter>Framework\Shader</Filter>
+    </None>
+    <None Include="UIDraw.frag">
+      <Filter>Framework\Shader</Filter>
+    </None>
+    <None Include="UIDraw.vert">
+      <Filter>Framework\Shader</Filter>
+    </None>
+  </ItemGroup>
+</Project>
